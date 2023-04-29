@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-@Component
+// @Component
 public class BizBox<K, V> {
 
 	private final ConcurrentMap<K, ExpirableValue<V>> box;

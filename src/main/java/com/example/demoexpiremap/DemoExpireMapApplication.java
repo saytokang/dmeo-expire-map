@@ -16,7 +16,7 @@ public class DemoExpireMapApplication {
 		SpringApplication.run(DemoExpireMapApplication.class, args);
 	}
 
-	@Bean
+	// @Bean
 	public ApplicationRunner run(BizBox bizBox) {
 		return args -> {
 			bizBox.put("k1", "하나", 1000);

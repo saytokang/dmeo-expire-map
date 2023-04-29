@@ -1,0 +1,6 @@
+
+GET http://localhost:8080/b/read/k2
+###
+
+PUT http://localhost:8080/b/write/k2
+###
