@@ -2,3 +2,6 @@
 
 map 으로 관리되는 값들에 대해서 timeout 기능을 제공한다. 
 
+##확인
+DemoExpireMapApplication 에 실행코드가 있다. 
+
